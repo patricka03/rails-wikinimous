@@ -1,0 +1,13 @@
+<div class="conatiner">
+  <%= simple_form_for(@article) do |f| %>
+    <div class="form-input m-4">
+      <%= f.input :title %>
+      <%= f.input :content %>
+    </div>
+
+    <div class="form-action m-4">
+      <%= f.submit class: "btn btn-info text-white" %>
+    </div>
+
+  <% end %>
+</div>
