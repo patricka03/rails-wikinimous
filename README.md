@@ -1,24 +1,39 @@
-# README
+# Rails Wikinimous 📖✨
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
+Rails Wikinimous is a simple Wikipedia-style application that allows users to create, edit, and view articles. Built with Rails, it offers a clean and minimalistic approach to content management, making it easy to store and retrieve information.
 
-Things you may want to cover:
+## Features
+- Users can **create** articles.
+- Articles can be **edited** dynamically.
+- Articles can be **deleted** when no longer needed.
+- Simple **interface for navigation**.
+- **Rails ActiveRecord** handles database operations.
 
-* Ruby version
+## Technologies Used
+- **Ruby on Rails** – Framework for the backend.
+- **PostgreSQL** – Database management.
+- **HTML & CSS** – Basic styling.
+- **Bootstrap** – For responsive UI components.
 
-* System dependencies
+## Installation & Usage
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/patricka03/rails-wikinimous.git
 
-* Configuration
+2. Navigate to the project directory:
+cd rails-wikinimous
 
-* Database creation
+3. Install dependencies:
+bundle install
 
-* Database initialization
+4. Set up the database:
+rails db:create db:migrate
 
-* How to run the test suite
+5. Start the server:
+rails s
 
-* Services (job queues, cache servers, search engines, etc.)
+6. Open the app in your browser at http://localhost:3000.
 
-* Deployment instructions
-
-* ...
+## Credits
+Developed by Patrick Amfo, leveraging Ruby on Rails for efficient content management.
